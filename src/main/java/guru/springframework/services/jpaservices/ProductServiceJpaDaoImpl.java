@@ -12,7 +12,11 @@ import java.util.List;
  * Created by jt on 12/9/15.
  */
 @Service
+<<<<<<< HEAD
 @Profile("jpadao")
+=======
+@Profile("jpadao-dontuse")
+>>>>>>> refs/remotes/origin/spring-data-jpa
 public class ProductServiceJpaDaoImpl extends AbstractJpaDaoService implements ProductService {
 
     @Override
